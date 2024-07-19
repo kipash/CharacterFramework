@@ -1,0 +1,14 @@
+{
+  "name": "com.shodo.character-framework",
+  "displayName": "Character Framework",
+  "description": "Character framework including a standard character",
+  "version": "0.0.1",
+  "unity": "2021.3",
+  "unityRelease": "9f1",
+  "author": {
+    "name": "Krystof Toman"
+  },
+  "dependencies": {
+    "com.needle.engine-exporter": "3.41.1-exp"
+  }
+}

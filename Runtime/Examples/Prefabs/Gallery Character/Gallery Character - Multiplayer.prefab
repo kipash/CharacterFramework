@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2179386600115527113
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1682822963, guid: cc24d738a03124a4797fd6473679151d, type: 3}
+      propertyPath: mainRenderer.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1682822963, guid: cc24d738a03124a4797fd6473679151d, type: 3}
+      propertyPath: mainRenderer.Array.data[2]
+      value: 
+      objectReference: {fileID: 2179386600268665745}
+    - target: {fileID: 162302601807775982, guid: cc24d738a03124a4797fd6473679151d, type: 3}
+      propertyPath: m_Name
+      value: Gallery Character - Multiplayer
+      objectReference: {fileID: 0}
+    - target: {fileID: 162302601807775983, guid: cc24d738a03124a4797fd6473679151d, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 162302601807775983, guid: cc24d738a03124a4797fd6473679151d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 162302601807775983, guid: cc24d738a03124a4797fd6473679151d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 162302601807775983, guid: cc24d738a03124a4797fd6473679151d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.99999964
+      objectReference: {fileID: 0}
+    - target: {fileID: 162302601807775983, guid: cc24d738a03124a4797fd6473679151d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 162302601807775983, guid: cc24d738a03124a4797fd6473679151d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 162302601807775983, guid: cc24d738a03124a4797fd6473679151d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 162302601807775983, guid: cc24d738a03124a4797fd6473679151d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 162302601807775983, guid: cc24d738a03124a4797fd6473679151d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 162302601807775983, guid: cc24d738a03124a4797fd6473679151d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 162302601807775983, guid: cc24d738a03124a4797fd6473679151d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 584478559, guid: cc24d738a03124a4797fd6473679151d, type: 3}
+    - {fileID: 157503063, guid: cc24d738a03124a4797fd6473679151d, type: 3}
+    - {fileID: 1174434633, guid: cc24d738a03124a4797fd6473679151d, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: cc24d738a03124a4797fd6473679151d, type: 3}
+--- !u!1 &2053115639630796071 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 162302601807775982, guid: cc24d738a03124a4797fd6473679151d, type: 3}
+  m_PrefabInstance: {fileID: 2179386600115527113}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5872725612017310904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2053115639630796071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a036248111e742749a39ce7bcbd68c7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Needle.Engine.Components.SyncedTransform, Needle.Engine
+  fastMode: 1
+--- !u!114 &7965113249801825598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2053115639630796071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e08638bf1c2b83b4ab31831d620fb741, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Needle.Engine.Components.PlayerState, Needle.Engine
+--- !u!23 &2179386600268665745 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 157503064, guid: cc24d738a03124a4797fd6473679151d, type: 3}
+  m_PrefabInstance: {fileID: 2179386600115527113}
+  m_PrefabAsset: {fileID: 0}

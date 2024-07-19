@@ -1,0 +1,16 @@
+{
+  "name": "characterframework",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "dependencies": {},
+  "peerDependencies": {
+    "@needle-tools/engine": "^3.45.2-beta.3",
+    "three": "npm:@needle-tools/three@^0.162.4",
+    "nipplejs": "^0.10.2"
+  },
+  "devDependencies": {
+    "@needle-tools/engine": "^3.45.2-beta.3",
+    "three": "npm:@needle-tools/three@^0.162.4",
+    "@types/three": "0.162.0"
+  }
+}
